@@ -1,0 +1,67 @@
+.movie-card {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-areas:
+    "header header"
+    "figure info";
+
+  gap: 24px;
+
+  background: #1e1e1e;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card header {
+  grid-area: header;
+}
+
+.movie-card h1 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.movie-card figure {
+  grid-area: figure;
+  margin: 0;
+}
+
+.movie-card figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.movie-card > div {
+  grid-area: info;
+}
+
+.movie-card dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 10px 16px;
+  margin: 0 0 24px;
+}
+
+.movie-card dt {
+  font-weight: 700;
+  color: #aaa;
+}
+
+.movie-card dd {
+  margin: 0;
+}
+
+.movie-card p {
+  margin: 0;
+  color: #ccc;
+  line-height: 1.6;
+}

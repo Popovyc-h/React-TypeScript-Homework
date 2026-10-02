@@ -1,0 +1,26 @@
+.clock-card {
+  width: 320px;
+  padding: 24px;
+  margin: 40px auto;
+
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.clock-card__header {
+  margin-bottom: 16px;
+
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+}
+
+.clock-card__time {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222;
+}
