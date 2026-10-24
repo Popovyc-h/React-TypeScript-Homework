@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Олена Коваленко",
+      "phone": "+380501234567",
+      "email": "olena@example.com",
+      "isFavorite": true
+    },
+    {
+      "id": "2",
+      "name": "Андрій Мельник",
+      "phone": "+380672345678",
+      "email": "andriy@example.com",
+      "isFavorite": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
